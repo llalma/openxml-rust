@@ -1,0 +1,18 @@
+[package]
+name = "openxml-parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# Extracting openxml format
+zip = "0.6.6"
+
+# Temp dir for extract input file
+tempdir = "0.3"
+
+[dev-dependencies]
+# Unit testing extraction
+glob = "0.3.1"
